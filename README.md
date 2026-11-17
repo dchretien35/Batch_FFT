@@ -2,8 +2,6 @@
 
 Small Tkinter GUI to process cryo-electron microscopy images in batch mode (FFT Gaussian low-pass filtering), with single-file preview tools.
 
-<img width="761" height="499" alt="Interface_GH" src="https://github.com/user-attachments/assets/de2dea3c-cb2b-4800-b253-5e05c3b79cc9" />
-
 ## Features
 
 - Open a folder and process all supported images in batch.
@@ -46,26 +44,17 @@ Small Tkinter GUI to process cryo-electron microscopy images in batch mode (FFT 
 
 ## Installation
 
-From the project folder:
-
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install --upgrade pip
-pip install numpy pillow mrcfile
-```
-
-> On Windows (PowerShell), activation is:
->
-> ```powershell
-> .venv\Scripts\Activate.ps1
-> ```
-
-## Run
-
-```bash
-python3 batch_fft.py
-```
+•	Download batch_fft.py from https://github.com/dchretien35/Batch_FFT, as well as the Logo_TEM2C.png image, and place them in a dedicated folder, named (e.g.) batch_fft.
+- It is recommended to create a batch_fft environment:
+- Install miniconda3 (if not yet present in your system): 
+- Open a terminal, and at the command line run: 
+conda create --name batch_fft python=3.13 (or your Python version)
+- Then enter: conda activate batch_fft
+- To quit the environment, use: conda deactivate
+- Python: Python 3.9+ (3.10+ recommended).
+- Needs Tkinter available with the Python build (standard on most macOS/Windows installers; on some Linux distros: run 'install python3-tk').
+- Packages for full feature set (projections and gallery): numpy, mrcfile, Pillow.
+- One-line install (inside your desired env): run pip install numpy mrcfile Pillow
 
 ## How to Use
 
