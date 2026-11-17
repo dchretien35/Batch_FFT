@@ -2,6 +2,8 @@
 
 Small Tkinter GUI to process cryo-electron microscopy images in batch mode (FFT Gaussian low-pass filtering), with single-file preview tools.
 
+See also the Batch_fft.pdf instructions.
+
 <img width="761" height="499" alt="Interface_GH" src="https://github.com/user-attachments/assets/2eee2f0b-0081-4ef6-b06c-3a127a008e16" />
 
 
